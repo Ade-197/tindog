@@ -147,13 +147,107 @@ text-align: center;
   #title{
     text-align: center;
   }
-  .title-image{
+  .titleimage{
     position: static;
     transform: rotate(0);
   }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  #title{
+    text-align: center;
+  }
+  .titleimage{
+    position: static;
+    transform: rotate(0);
+  }
+
+  h1,h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+  }
+
+  h3{
+      font-size: 1.2rem;
+  }
+
+
+}
+
+@media screen and (max-width: 950px) {
+  #title{
+    text-align: center;
+  }
+  .titleimage{
+    position: static;
+    transform: rotate(0);
+  }
+
+  h1,h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+  }
+
+  h3{
+      font-size: 1.2rem;
+  }
+
+
 }
 
 
+@media screen and (max-width: 650px) {
+  #title{
+    text-align: center;
+  }
+  .titleimage{
+    position: static;
+    transform: rotate(20);
+  }
+
+  h1,h2{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #fff;
+  }
+
+  h3{
+      font-size: 1.2rem;
+  }
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+  #title{
+    text-align: center;
+  }
+  .titleimage{
+    position: static;
+    transform: rotate(20);
+  }
+
+  h1,h2{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #fff;
+  }
+
+  h3{
+      font-size: 1.2rem;
+  }
+
+
+}
 
 #cta{
     background-color:#ff4c68;
